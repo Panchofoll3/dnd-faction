@@ -83,3 +83,27 @@ h2 {
 p, ul {
     line-height: 1.6;
 }
+
+#password-container {
+    text-align: center;
+    padding: 50px;
+}
+
+#password-container input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+#password-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #6d4c41;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#password-container button:hover {
+    background-color: #3e2723;
+}

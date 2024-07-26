@@ -1,7 +1,7 @@
 // Aggiungi eventuali funzionalità interattive qui
 function checkPassword() {
     const password = document.getElementById('password').value;
-    const correctPassword = 'crittoicattivi'; // Cambia questa password con quella che desideri
+    const correctPassword = crittoicattivi; // Cambia questa password con quella che desideri
 
     if (password === correctPassword) {
         document.getElementById('password-container').style.display = 'none';

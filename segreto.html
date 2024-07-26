@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piani Segreti del Conclave</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="password-container">
+        <h2>Inserisci la password per accedere ai piani segreti</h2>
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="checkPassword()">Accedi</button>
+        <p id="error-message" style="color: red; display: none;">Password errata. Riprova.</p>
+    </div>
+
+    <div id="secret-content" style="display: none;">
+        <header>
+            <h1>Piani Segreti del Conclave</h1>
+        </header>
+
+        <section id="piani-segreti">
+            <h2>Piani Segreti</h2>
+            <p>Qui vengono delineati i piani segreti del Conclave per proteggere il mondo dalle forze oscure e mantenere l'equilibrio.</p>
+            <ul>
+                <li>Operazione Ombra: Infiltrazione nelle organizzazioni nemiche per raccogliere informazioni critiche.</li>
+                <li>Progetto Gaia: Risanamento delle aree naturali corrotte dalla magia oscura.</li>
+                <li>Alleanze Arcane: Formazione di alleanze con potenti maghi per contrastare le minacce magiche.</li>
+            </ul>
+        </section>
+
+        <section id="membri-segreti">
+            <h2>Membri Segreti</h2>
+            <p>Elenco dei membri più fidati del Conclave, selezionati per le loro abilità e dedizione alla causa.</p>
+            <ul>
+                <li>Aran il Saggio - Mago</li>
+                <li>Lyra la Protettrice - Guerriera</li>
+                <li>Finn il Silenzioso - Ladro</li>
+                <li>Elara la Guaritrice - Druida</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

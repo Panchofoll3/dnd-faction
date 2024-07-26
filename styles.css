@@ -1,73 +1,69 @@
-/* Stili generali del body e del contenuto */
 body {
-    font-family: 'Garamond', serif;
-    background-color: #eae6d7;
-    color: #4e342e;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f0e1;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('fantasy-background.jpg'); /* Aggiungi un'immagine di sfondo fantasy */
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header {
-    background-color: #4e342e;
-    color: #f5f0e1;
+    background-color: #6d4c41;
+    color: #fff;
     padding: 20px 0;
     text-align: center;
-    border-bottom: 5px solid #d7ccc8;
+    border-bottom: 5px solid #3e2723;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    font-family: 'Old English Text MT', serif; /* Font stilizzata per il fantasy */
 }
 
-#password-container {
-    text-align: center;
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.9); /* Sfondo leggermente trasparente */
-    border: 2px solid #4e342e;
-    border-radius: 10px;
-    margin: 20px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
 }
 
-#password-container input {
-    padding: 10px;
-    margin: 10px;
-    font-size: 1em;
-    border: 1px solid #4e342e;
-    border-radius: 5px;
-    background-color: #fff;
+nav ul li {
+    margin: 0 15px;
 }
 
-#password-container button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #4e342e;
-    color: #f5f0e1;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+nav ul li a {
+    color: #ffd54f;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-#password-container button:hover {
-    background-color: #3e2723;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-#secret-content {
+section {
     padding: 20px;
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #4e342e;
-    border-radius: 10px;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
 }
 
-#secret-content h2 {
-    color: #3e2723;
-    font-size: 2em;
-    margin-bottom: 10px;
+.symbol {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.symbol img {
+    max-width: 200px;
+    border: 3px solid #6d4c41;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #3e2723;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
 
 ul {
@@ -78,6 +74,36 @@ ul li {
     margin: 10px 0;
 }
 
-p {
+h2 {
+    color: #6d4c41;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p, ul {
     line-height: 1.6;
+}
+
+#password-container {
+    text-align: center;
+    padding: 50px;
+}
+
+#password-container input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+#password-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #6d4c41;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#password-container button:hover {
+    background-color: #3e2723;
 }
